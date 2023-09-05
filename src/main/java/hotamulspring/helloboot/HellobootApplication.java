@@ -1,5 +1,6 @@
 package hotamulspring.helloboot;
 
+import hotamulspring.config.MySpringBootApplication;
 import org.springframework.boot.SpringApplication;
 
 @MySpringBootApplication

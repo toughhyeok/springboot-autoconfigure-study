@@ -1,4 +1,4 @@
-package hotamulspring.helloboot;
+package hotamulspring.config.autoconfig;
 
 import org.springframework.boot.web.server.WebServer;
 import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
