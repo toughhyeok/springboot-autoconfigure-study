@@ -1,2 +1,3 @@
 hotamulspring.config.autoconfig.TomcatWebServerConfig
+hotamulspring.config.autoconfig.JettyWebServerConfig
 hotamulspring.config.autoconfig.DispatcherServletConfig
