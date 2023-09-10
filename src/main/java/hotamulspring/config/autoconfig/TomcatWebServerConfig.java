@@ -12,8 +12,13 @@ import org.springframework.context.annotation.Bean;
 public class TomcatWebServerConfig {
     @Bean("tomcatWebServerFactory")
     @ConditionalOnMissingBean
-    public ServletWebServerFactory servletWebServerFactory() {
-        return new TomcatServletWebServerFactory();
+    public ServletWebServerFactory servletWebServerFactory(ServerProperties properties) {
+        TomcatServletWebServerFactory serverFactory = new TomcatServletWebServerFactory();
+
+        serverFactory.setContextPath(properties.getContextPath());
+        serverFactory.setPort(properties.getPort());
+
+        return serverFactory;
     }
 
 }
