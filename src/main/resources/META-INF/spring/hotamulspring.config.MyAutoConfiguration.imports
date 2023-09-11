@@ -1,3 +1,4 @@
+hotamulspring.config.autoconfig.DataSourceConfig
 hotamulspring.config.autoconfig.PropertyPostProcessorConfig
 hotamulspring.config.autoconfig.PropertyPlaceholderConfig
 hotamulspring.config.autoconfig.TomcatWebServerConfig
