@@ -1,5 +1,8 @@
 package hotamulspring.config.autoconfig;
 
+import hotamulspring.config.MyConfigurationProperties;
+
+@MyConfigurationProperties(prefix = "server")
 public class ServerProperties {
     private String contextPath;
 
